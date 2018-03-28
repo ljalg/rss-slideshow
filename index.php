@@ -12,9 +12,9 @@ include_once('defaults.php');
 	<META HTTP-EQUIV="Content-Language" CONTENT="en-GB">
 	
 	<link rel="stylesheet" href="style/build.css" media="all" />
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" type="text/css" media="all" />
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" type="text/css" media="all" />
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 
 <script>
 /* accordian function to make pretty display */
@@ -37,10 +37,7 @@ include_once('defaults.php');
 		return false;     
      }
 	}
-
-</SCRIPT>
-
-	
+</script>
 </head>
 <body>
 <div id="content">
@@ -48,7 +45,7 @@ include_once('defaults.php');
 include_once('header.php');
 ?>
 <p class="instructions">Make your selections below and select the "Slideshow" button to start your slideshow. 
-Check out this <a href="display.php?src=http%3A%2F%2Frssslideshow.algaze.org%2Fexample_feed.rss&css=white&fx=fade&Slideshow=Slideshow&chan=y&num=0&desc=1&to=4000&si=1000&so=1000&tz=feed&targ=n&html=y&utf=y" target="_blank">Example</a> to test it out.</p>
+Check out this <a href="display.php?src=<?php echo($_SERVER['HTTP_REFERER']); ?>/example_feed.rss&css=white&fx=fade&Slideshow=Slideshow&chan=y&num=0&desc=1&to=4000&si=1000&so=1000&tz=feed&targ=n&html=y&utf=y" target="_blank">Example</a> to test it out.</p>
 
 <form method="get" action="display.php"  name="builder" onSubmit="return check_it();return false;">
 
@@ -57,7 +54,7 @@ Check out this <a href="display.php?src=http%3A%2F%2Frssslideshow.algaze.org%2Fe
 	<div class="optioninput"><input type="text" name="src" size="30" value="<?php echo $src?>"></div>
 	<div class="optionnote">Enter the web address of the RSS Feed (must be in http:// format, not feed://).  
 	<br>Note: Please verify the URL of your feed (make sure it presents raw RSS) 
-	and <a href="http://feedvalidator.org/" onClick="window.open('http://feedvalidator.org/check.cgi?url=' + encodeURIComponent(document.builder.src.value), 'check'); return false;">check that it is valid</a>  
+	and <a href="https://feedvalidator.org/" onClick="window.open('https://feedvalidator.org/check.cgi?url=' + encodeURIComponent(document.builder.src.value), 'check'); return false;">check that it is valid</a>  
 	before using this form.</div>
 </div>
 <div>After starting slideshow, you can <a href="about.php#fullscreen" target="_blank">fullscreen your browser</a>.</div>
@@ -219,7 +216,7 @@ Check out this <a href="display.php?src=http%3A%2F%2Frssslideshow.algaze.org%2Fe
 			<div class="optionnote">
 				use UTF-8 character encoding<br>
 				Required for many non-western language web pages and also may help if you see strange characters replacing quotes in your output 
-				(see <a href="http://feed2js.org/index.php?s=help#chars">help pages</a> for more information).
+				(see <a href="https://feed2js.org/index.php?s=help#chars">help pages</a> for more information).
 			</div>
 		</div>	
 		<div class="optionlast">
