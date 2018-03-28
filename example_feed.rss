@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+      <title>RSS Slideshow RSS Feed</title>
+      <link>http://rssslideshow.algaze.org</link>
+      <description>This is the default RSS feed used when no URL is specified for an RSS slideshow.</description>
+      <language>en-us</language>
+      <pubDate>Wed, 30 Nov 2011 08:00:00 GMT</pubDate>
+      <lastBuildDate>Wed, 30 Nov 2011 08:00:00 GMT</lastBuildDate>
+      <image>
+			<title>CNN.com</title>
+			<link>http://rssslideshow.algaze.org</link>
+			<url>http://rssslideshow.algaze.org/images/logo.gif</url>
+			<width>100</width>
+			<height>100</height>
+			<description>RSS Slideshow, displays a slideshow of any RSS feed</description>
+		</image>
+      <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+      <generator>Manually Edited</generator>
+      <managingEditor>louis@algaze.org</managingEditor>
+      <webMaster>louis@algaze.org</webMaster>
+      <item>
+         <title>Item 1</title>
+         <link>http://rssslideshow.algaze.org/about.php</link>
+         <description>This is the first item in this RSS feed.  Also a link to  &lt;a href="http://rssslideshow.algaze.org/about.php"&gt;the RSS Slideshow About Page&lt;/a&gt;.</description>
+         <pubDate>Fri, 02 Dec 2011 02:00:00 GMT</pubDate>
+         <author>Louis Algaze</author>
+      </item>
+      <item>
+         <title>Item 2</title>
+         <description>Did you know there are many settings that can be modified when launching a slideshow including timing of the items, the type of transitions (although some work better than others), etc. </description>
+         <pubDate>Wed, 07 Dec 2011 16:00:00 GMT</pubDate>
+         <author>louis@algaze.org</author>
+      </item>
+      <item>
+         <title>Item 3</title>
+         <link>http://rssslideshow.algaze.org/about.php</link>
+         <description>Since RSS Slideshow users an http GET, any of the slideshows can be bookmarked, including all of the settings, and can be lauched from a shortcut.</description>
+         <pubDate>Wed, 14 Dec 2011 22:00:00 GMT</pubDate>
+         <author>Louis the Great</author>
+      </item>
+      <item>
+         <title>Item 4</title>
+         <link>http://rssslideshow.algaze.org/about.php</link>
+         <description>Images can be placed inline &lt;img src="http://rssslideshow.algaze.org/images/logo.gif" /&gt; with the text but will only be displayed
+         if the option to "Use HTML in item display" is set to Yes.</description>
+         <pubDate>Tue, 27 Dec 2011 02:00:00 GMT</pubDate>
+         <author>Image of Louis</author>
+      </item>
+      <item>
+         <title>Item 5</title>
+         <link>http://rssslideshow.algaze.org/about.php</link>
+         <description>&lt;img src="http://www.wallpaperpictures.com/images/photoway-com/st-1920x1200-photoway-com.jpg" width="500" /&gt;</description>
+         <pubDate>Tue, 27 Dec 2011 03:00:00 GMT</pubDate>
+         <author>Louis the Geek</author>
+      </item>
+      <item>
+         <title>Item 6</title>
+         <link>http://rssslideshow.algaze.org/about.php</link>
+         <description>Feature suggestions, ideas and kudos can be sent to &lt;a href="mailto:louis@algaze.org"&gt;Louis Algaze&lt;/a&gt;.</description>
+         <pubDate>Fri, 23 Dec 2011 08:00:00 GMT</pubDate>
+         <author>The Wonderful Algaze</author>
+      </item>
+   </channel>
+</rss>
