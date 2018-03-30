@@ -16,28 +16,28 @@ include_once('defaults.php');
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 
-<script>
-/* accordian function to make pretty display */
-	$(function() {
-		$( "#accordion" ).accordion({ collapsible: true,  active: false, autoHeight: false });
-	});
-
-/* function to check if valid URL is entered */
-	function check_it() {
-     var theurl=document.builder.src.value;
-     var tomatch= /(https?|feed):\/\/[A-Za-z0-9\.-]{3,}\.[A-Za-z]{3}/
-     if (tomatch.test(theurl))
-     {  
-     		builder.submit;
-     		return true;
-     }
-     else
-     {
-     	window.alert("Please enter a valid URL for your RSS feed, the one you entered is invalid."); 
-		return false;     
-     }
-	}
-</script>
+	<script>
+	/* accordian function to make pretty display */
+		$(function() {
+			$( "#accordion" ).accordion({ collapsible: true,  active: false, autoHeight: false });
+		});
+	
+	/* function to check if valid URL is entered */
+		function check_it() {
+	     var theurl=document.builder.src.value;
+	     var tomatch= /(https?|feed):\/\/[A-Za-z0-9\.-]{3,}\.[A-Za-z]{3}/
+	     if (tomatch.test(theurl))
+	     {  
+	     		builder.submit;
+	     		return true;
+	     }
+	     else
+	     {
+	     	window.alert("Please enter a valid URL for your RSS feed, the one you entered is invalid."); 
+			return false;     
+	     }
+		}
+	</script>
 </head>
 <body>
 <div id="content">
@@ -45,7 +45,7 @@ include_once('defaults.php');
 include_once('header.php');
 ?>
 <p class="instructions">Make your selections below and select the "Slideshow" button to start your slideshow. 
-Check out this <a href="display.php?src=<?php echo($_SERVER['HTTP_REFERER']); ?>/example_feed.rss&css=white&fx=fade&Slideshow=Slideshow&chan=y&num=0&desc=1&to=4000&si=1000&so=1000&tz=feed&targ=n&html=y&utf=y" target="_blank">Example</a> to test it out.</p>
+Check out this <a href="display.php?src=http://algaze.org/ide/workspace/rssslideshow/example_feed.rss&css=white&fx=fade&Slideshow=Slideshow&chan=y&num=0&desc=1&to=4000&si=1000&so=1000&tz=feed&targ=n&html=y&utf=y" target="_blank">Example</a> to test it out.</p>
 
 <form method="get" action="display.php"  name="builder" onSubmit="return check_it();return false;">
 

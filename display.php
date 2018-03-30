@@ -12,18 +12,19 @@
 	?>
 <title>RSS Slideshow</title>
 <link rel="stylesheet" href="style/rssslideshow_main.css" media="screen" />
-<link rel="stylesheet" href="<? echo($css); ?>" media="screen" />
+<link rel="stylesheet" href="<?php echo($css); ?>" media="screen" />
 
 <!-- include jQuery library -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <!-- include Cycle plugin -->
 <script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
 
 <!-- run Cycle plugin -->
 <script type="text/javascript">
 $(document).ready(function() {
-    $('.rss-items').cycle({
-	 	<?php echo $ssoptions ?>});
+    $('.rss-items').cycle( {
+	 	<?php echo $ssoptions ?>
+    });
 });
 </script>
 <noscript>Please ensure you have javascript enabled to run RSS Slideshow.</noscript>
@@ -32,6 +33,6 @@ $(document).ready(function() {
 
 <script language="JavaScript" src="<?php echo $rss_str ?>" charset="UTF-8" type="text/javascript"></script>
 
-<a id="powered" href="http://algaze.org/ide/workspace/rssslideshow/" target="_blank">powered by RSS Slideshow</a>
+<a id="powered" href="<?php echo($_SERVER['REQUEST_URI']) ?>" target="_blank">powered by RSS Slideshow</a>
 </body>
 </html>
