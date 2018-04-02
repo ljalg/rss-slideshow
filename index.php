@@ -45,7 +45,7 @@ include_once('defaults.php');
 include_once('header.php');
 ?>
 <p class="instructions">Make your selections below and select the "Slideshow" button to start your slideshow. 
-Check out this <a href="display.php?src=http://algaze.org/ide/workspace/rssslideshow/example_feed.rss&css=white&fx=fade&Slideshow=Slideshow&chan=y&num=0&desc=1&to=4000&si=1000&so=1000&tz=feed&targ=n&html=y&utf=y" target="_blank">Example</a> to test it out.</p>
+Check out this <a href="display.php?src=http://rssslideshow.algaze.org/example_feed.rss&css=white&fx=fade&Slideshow=Slideshow&chan=y&num=0&desc=1&to=4000&si=1000&so=1000&tz=feed&targ=n&html=y&utf=y" target="_blank">Example</a> to test it out.</p>
 
 <form method="get" action="display.php"  name="builder" onSubmit="return check_it();return false;">
 

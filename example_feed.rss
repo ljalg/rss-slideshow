@@ -8,9 +8,9 @@
       <pubDate>Wed, 30 Nov 2011 08:00:00 GMT</pubDate>
       <lastBuildDate>Wed, 30 Nov 2011 08:00:00 GMT</lastBuildDate>
       <image>
-			<title>CNN.com</title>
+			<title>RSS Slideshow Test Feed</title>
 			<link>http://algaze.org/ide/workspace/rssslideshow</link>
-			<url>http://algaze.org/ide/workspace/rssslideshow/images/logo_sm.png</url>
+			<url>http://rssslideshow.algaze.org/images/logo_sm.png</url>
 			<width>100</width>
 			<height>100</height>
 			<description>RSS Slideshow, displays a slideshow of any RSS feed</description>
