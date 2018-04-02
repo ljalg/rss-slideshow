@@ -42,7 +42,7 @@
       <item>
          <title>Item 4</title>
          <link>http://algaze.org/ide/workspace/rssslideshow/about.php</link>
-         <description>Images can be placed inline &lt;img src="https://www.digitalabs.in/uploaded_files/images/lg_flat-design-broadcast-rss-wifi-signal-preloader-gif.gif" /&gt; with the text but will only be displayed
+         <description>Images can be placed inline &lt;img width="100px" src="https://www.digitalabs.in/uploaded_files/images/lg_flat-design-broadcast-rss-wifi-signal-preloader-gif.gif" /&gt; with the text but will only be displayed
          if the option to "Use HTML in item display" is set to Yes.</description>
          <pubDate>Tue, 27 Dec 2011 02:00:00 GMT</pubDate>
          <author>Image of Louis</author>
@@ -50,7 +50,7 @@
       <item>
          <title>Item 5</title>
          <link>http://algaze.org/ide/workspace/rssslideshow/about.php</link>
-         <description>&lt;img src="https://www.farmandbeachhouses.com/wp-content/uploads/2017/01/beaches-beachhouses.jpg" width="100%" /&gt;</description>
+         <description>&lt;img src="https://www.farmandbeachhouses.com/wp-content/uploads/2017/01/beaches-beachhouses.jpg" width="800px" /&gt;</description>
          <pubDate>Tue, 27 Dec 2011 03:00:00 GMT</pubDate>
          <author>Louis the Geek</author>
       </item>
