@@ -30,6 +30,21 @@ $(document).ready(function() {
 <noscript>Please ensure you have javascript enabled to run RSS Slideshow.</noscript>
 </head>
 <body>
+	
+<?php
+// clears cache of files older than 1 day
+$dir = "magpie/cache/"; /** define the directory **/
+
+/*** cycle through all files in the directory ***/
+foreach (glob($dir."*") as $file) {
+	/*** if file is 24 hours (86400 seconds) old then delete it ***/
+	if (filemtime($file) < time() - 86400) { // 24 hour
+	    unlink($file);
+	    }
+}
+
+
+?>
 
 <script language="JavaScript" src="<?php echo $rss_str ?>" charset="UTF-8" type="text/javascript"></script>
 

@@ -67,7 +67,7 @@ Each of these steps for different operating systems and browsers are listed belo
 
 <ul>
 		<li>Done - <a href="frames_vertical.html">Multiple Feeds</a> - I used iframes to display more than one on a page. To display several feeds in a single list, I'd suggest an <a href="http://en.wikipedia.org/wiki/News_aggregator" target="_blank">RSS aggregator</a>.</li>
-		<li>Keep cache clear by deleting all cache files older than 1 day on every launch</li>
+		<li>Done - Keep cache clear by deleting all cache files older than 1 day on every launch</li>
 		<li>Allow user to specify their own css on a remote server or allow users to specify their own background image - easy one based on feedback.</li>
 		<li>Automatic Browser Maximization or show in greybox</li>	
 		<li>Incorporate the option to input your Zip code and get one of the items to display the local weather forecast.</li>
