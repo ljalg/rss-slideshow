@@ -1,7 +1,11 @@
 /* begin styles for RSS Feed */
 body {
 	font-family:"Times New Roman", Times, serif;
-	font-size:16px;
+	font-size:20px;
+}
+
+#powered {
+	text-align:right;
 }
 
 .rss-box {
