@@ -30,7 +30,7 @@ $(document).ready(function() {
 <noscript>Please ensure you have javascript enabled to run RSS Slideshow.</noscript>
 </head>
 <body>
-	
+<div id="powered"><a href="http://algaze.org/ide/workspace/rssslideshow" target="_blank">powered by RSS Slideshow</a></div>
 <?php
 // clears cache of files older than 1 day
 $dir = "magpie/cache/"; /** define the directory **/
@@ -45,9 +45,7 @@ foreach (glob($dir."*") as $file) {
 
 
 ?>
-
+<script language="JavaScript" src="popup.js" charset="UTF-8" type="text/javascript"></script>
 <script language="JavaScript" src="<?php echo $rss_str ?>" charset="UTF-8" type="text/javascript"></script>
-
-<a id="powered" href="<?php echo($_SERVER['REQUEST_URI']) ?>" target="_blank">powered by RSS Slideshow</a>
 </body>
 </html>
