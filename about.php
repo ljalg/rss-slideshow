@@ -55,8 +55,8 @@ Each of these steps for different operating systems and browsers are listed belo
 <tr><td>Windows</td><td>Chrome</td><td>F11</td><td>Ctrl Mouse Scroll Wheel</td><td>F5</td></tr>
 <tr><td>Windows</td><td>Safari</td><td>F11</td><td>Ctrl Mouse Scroll Wheel</td><td>F5</td></tr>
 <tr><td>Mac</td><td>Safari</td><td><a href="https://discussions.apple.com/message/11654389#11654389" target="_blank">Kinda can't be done</a></td><td>cmd + and cmd -</td><td>CMD R</td></tr>
-<tr><td>Mac</td><td>Firefox</td><td>shift cmd f</td><td>cmd + and cmd -</td><td>F5</td></tr>
-<tr><td>Mac</td><td>Chrome</td><td>shift cmd f</td><td>cmd + and cmd -</td><td>cmd r</td></tr>
+<tr><td>Mac</td><td>Firefox</td><td>ctl cmd f</td><td>cmd + and cmd -</td><td>F5</td></tr>
+<tr><td>Mac</td><td>Chrome</td><td>ctl cmd f</td><td>cmd + and cmd -</td><td>cmd r</td></tr>
 <tr><td>Linux</td><td>Firefox</td><td>F11</td><td>Ctrl Mouse Scroll Wheel</td><td>F5</td></tr>
 <tr><td>Linux</td><td>Chrome</td><td>F11</td><td>Ctrl Mouse Scroll Wheel or Ctrl + and Ctrl -</td><td>F5</td></tr>
 </table>
