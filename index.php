@@ -146,7 +146,7 @@ Check out this <a href="display.php?src=http://rssslideshow.algaze.org/example_f
 	<div>
 		<div class="option">
 			<div class="optiontitle">Automatic Fullscreen</div>
-			<div class="optioninput">Planned future functionality; to bring to full screen select F11 and then F5 to refresh page.</div>
+			<div class="optioninput">Planned future functionality; See <a href="about.php" target="_blank">about page</a> to fullscreen your browser.</div>
 			<div class="optionnote">Open Slideshow in full screen Browser</div>
 		</div>	
 		<div class="option">
